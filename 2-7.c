@@ -5,8 +5,6 @@ unsigned clearRightBits(unsigned, int);
 
 int main()
 {
-    int n = 4;
-    n = n & 7;
     // printf("%d", invert(0b00001001, 4, 2)); // expected 00010001 = 17
     printf("%d", invert(0b10011101, 6, 2)); // expected 011111101 = 257
     return 0;
